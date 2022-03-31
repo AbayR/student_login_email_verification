@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+}
+body{
+    background: rgba(255,247,223,1);
+}
+.main-heading{
+    max-width: 149px;
+    margin-top: 0 !important;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-top: 1%;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+  
+    color: #000;
+}
+  
+  
+.all{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.footerimg{
+    margin-top: auto;
+}
+.imgf{
+    width: 100%;
+}
+.imgtop{
+    width: 291px;
+    height: 128px;
+}
+ 
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 765px;
+    min-height: 522px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+    border-radius: 52px;
+}
+
+.upload-photo{
+    margin-left: 10%;
+    padding-top: 10%;
+    text-align: center;
+}
+.photo-frame{
+    margin-top: 20%;
+    min-width: 210px;
+    min-height: 251px;
+    background-color: #CECECE;
+    border-radius: 52px;
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+    background-image: url(/img/user.svg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.req{
+    margin-right: 5%;
+    margin-top: 3.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CECECE;
+    width: 100%;
+    max-height: 468px;
+    max-width: 329px;
+    border-radius: 52px;
+}
+.requirements{
+
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
+}
+.requirement-item{
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+  }
+  
+.requirement-item:not(:last-child){
+    margin-bottom: 12%;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  
+.upload-button{
+    display: block;
+    margin-left: 143px;
+    padding-top: 225px;
+    
+    
+  }
+  
+  .pin-img{
+    padding-top: 7px;
+    padding-left: 10px;
+    width: 55px;
+    height: 55px;
+  }
+  
+  .input-cover{
+    width: 68px;
+    height: 68px;
+    background: linear-gradient(228.59deg, #FFC000 -3.1%, #FF8A00 96.88%);
+    border-radius: 50%;
+    border: none;
+  }
+  
+  .input-cover:hover{ 
+    transform: translateY(-3px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  } 
+  .input-cover:active{ 
+    transform: translateY(-1px); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+  } 
+  .upload-button:hover{ 
+    cursor: pointer 
+  }
+  .finish{ 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 2%; 
+  } 
+  .finish-btn{ 
+    height: 40px; 
+    width: 150px; 
+    cursor: pointer; 
+    font-size: 20px; 
+    font-weight: bold; 
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);; 
+    border-radius: 30px; 
+    color: #FFFFFF; 
+    border: none; 
+  } 
+  .finish-btn:hover{ 
+    transform: translateY(-3px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  } 
+  .finish-btn:active{ 
+    transform: translateY(-1px); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+  }
+@media (max-width: 650px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        max-width: 765px;
+        min-height: 522px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+        border-radius: 52px;
+    }
+    .upload-photo{
+        margin-left: 0;
+        padding-top: 10%;
+        text-align: center;
+    }
+    .photo-frame{
+        margin: 3% auto;
+        width: 210px;
+        min-height: 251px;
+        background-color: #CECECE;
+        border-radius: 52px;
+        box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+        background-image: url(/img/user.svg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .req{
+        margin: 3.5% auto;
+        align-items: center;
+        justify-content: center;
+        background-color: #CECECE;
+        width: 100%;
+        height: 368px;
+        max-width: 329px;
+        border-radius: 52px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .imgf{
+        width: 380px;
+    }
+} 

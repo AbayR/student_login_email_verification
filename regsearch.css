@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:rgba(255,247,223,1);
+}
+
+.all{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.footerimg{
+    margin-top: auto;
+}
+.imgf{
+    width: 100%;
+}
+.imgtop{
+    width: 291px;
+    height: 128px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    color: #5c5c5c;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 20px;
+}
+.search{
+    margin-top: 3%;
+}
+.imgsearch{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 900px;
+    min-height: 130px;
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+    border-radius: 10px;
+    text-align: left;
+}
+::placeholder{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.lupa{
+    margin-top: 17px;
+    width: 30px; 
+    margin-left: 50px;
+    height: 30px;;
+}
+.input{
+    outline: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: none;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 700px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.line{
+    margin-top: 10px;
+    display: block;
+    width: 90%;
+    height: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+.l_inp{
+    display: flex;
+    justify-content: baseline;
+}
+.list-top{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.list-top-btn{
+    background-color: #FFFFFF;
+    background-image: url(/img/X.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.7ch);
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 30px;
+    color: #FFB301;
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 40px;
+    transition: 0.3s;
+}
+.list-top-btn:hover{
+    background-image: url(/img/Xhover.svg);
+    background-position: calc(100% - 1.1ch);
+}
+
+.list{
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.listbtn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.listbtn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.listbtn{
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);;
+    border-radius: 30px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.listbtn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.listbtn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.x:hover{
+    transform: translateY(-3px);
+}
+.x:active{
+    transform: translateY(-1px);
+}
+.textbtn{
+    align-items: center;
+}
+.textbtnc{
+    margin-right: 25%;
+}
+.next-back{
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nextbtn{
+    
+    width: 100%;
+    max-width: 100px;
+    display: flex;
+    box-sizing:border-box;
+    border-radius: 30px;
+    height: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #FFB301; 
+}
+.backbtn{
+    width: 100%;
+    max-width: 100px;
+    display: flex;
+    box-sizing:border-box;
+    border-radius: 30px;
+    height: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #5c5c5c;
+}
+.tbtn{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nextbtn:hover{
+    color:#ff7301;
+}
+.nextbtn:active{
+    transform: translateY(-1px);
+}
+.backbtn:active{
+    transform: translateY(-1px);
+}
+.backbtn:hover{
+    color: #000000ce;
+}
+@media (max-width: 390px) {
+    
+    .imgf{
+        width: 380px;
+    }
+}
